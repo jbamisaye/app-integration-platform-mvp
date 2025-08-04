@@ -49,7 +49,7 @@ This prototype demonstrates a simplified front-end simulation of the integration
 - **Styling**: The UI is functional and minimal, Basic styling only; accessibility and mobile optimization are limited.
 - **Scalability**: Designed as a prototype, not optimized for performance or multi-user scenarios.
 
-### Suggested Enhancements
+### Suggested Future Enhancements
 - Integrate with real APIs (e.g., flight schedules, ride booking).
 - Use Redux or Zustand for scalable state.
 - Add form validation libraries (e.g., Yup).
@@ -60,6 +60,8 @@ This prototype demonstrates a simplified front-end simulation of the integration
 - Improve UI/UX with responsive design and accessibility.  
 - Create admin dashboard for operational monitoring.
 - Add user authentication and profile management.
+- Allow users to book train options as an alternative to taxis.
+- Support taxi bookings independently of flight selection.
 
 ---
 
