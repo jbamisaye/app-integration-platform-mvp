@@ -1,7 +1,7 @@
 ## Prototype Architecture Overview
 
 ### Scope
-This prototype demonstrates a simplified front-end simulation of the integration between Priority Pass and a global taxi platform. It showcases key user workflows such as flight selection, taxi booking, and trip summary — aligned with the backend architecture's intent, but without backend services.
+This prototype demonstrates a simplified front-end simulation of the integration between Priority Pass and a global taxi platform. It showcases key user workflows such as flight selection, taxi booking, and trip summary. This is aligned with the backend architecture's intent, but without real backend services.
 
 ---
 
