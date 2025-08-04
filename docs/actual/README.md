@@ -1,7 +1,7 @@
-## Architecture Overview – Real System
+## Architecture Overview
 
 ### System Design Principles
-The real-world architecture is designed to be scalable, fault-tolerant, loosely coupled, and cloud-native. It integrates the Priority Pass ecosystem with a third-party global taxi service to enable seamless traveler experiences before, during, and after airport visits.
+The architecture is designed to be scalable, fault-tolerant, loosely coupled, and cloud-native. It integrates the Priority Pass ecosystem with a third-party global taxi service to enable seamless traveler experiences before, during, and after airport visits.
 
 ### Technical Choices & Rationale
 - **Microservices**: Encourages separation of concerns and service autonomy.
