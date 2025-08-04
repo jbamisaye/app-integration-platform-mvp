@@ -84,7 +84,7 @@ This prototype demonstrates a simplified front-end simulation of the integration
 - Selects flight to get accurate departure and ETA recommendations.  
 - Books taxi based on recommended leave time.  
 - Receives booking confirmation and trip summary.  
-- Optionally accesses lounge information (future work).  
+- Optionally accesses lounge information.  
 
 #### Prototype Source : [`/frontend-prototype/`](./)  
 #### Repository Home : [`/Repository-Home/`](../README.md)  
