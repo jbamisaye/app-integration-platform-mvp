@@ -14,11 +14,14 @@ The architecture is designed to be scalable, fault-tolerant, loosely coupled, an
 - **PostgreSQL on AWS RDS**: Provides relational integrity and managed operations while fitting existing enterprise skills.
 - **React + Tailwind CSS**: Enables rapid UI development with a clean and responsive user experience.
 
-### Omissions & Trade-offs
-- Real-time load balancing and taxi dispatch logic are offloaded to the global taxi provider.
-- No implementation of retry logic, compensation flows, or SLA enforcement in this documentation.
-- Security layers (e.g., WAF, DDoS protection) assumed but not diagrammed in detail.
-- Assumes well-formed and reliable APIs from third-party partners.
+### Architectural Omissions & Trade-offs
+- **Real-time dispatch & load balancing** are handled by the global taxi provider. The platform trusts their algorithms for optimal pickup experience.  
+- **No retry logic or compensation flows** have been implemented in this MVP. Failed requests may result in a degraded user experience.  
+- **Security assumptions are implicit**. WAF, API throttling, and DDoS protection are considered out-of-scope for this MVP but would be required in production.  
+- **Third-party APIs are assumed reliable and stable**. Error handling for edge cases (e.g., rate limits, format inconsistencies) would need to be added.  
+- **Simplified data sync logic** has been used. Lounge/taxi inventories are not updated in real-time but assumed to be synchronized periodically or via webhook triggers. 
+- **Lack of user-facing fallback mechanisms**. If a booking fails or inventory is outdated, there is no automated feedback, suggestion, or admin intervention built-in yet.
+
 
 ### Future Enhancements
 - Add AI-based personalization for departure time estimation.
