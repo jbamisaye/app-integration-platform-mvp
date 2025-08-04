@@ -17,7 +17,7 @@ This prototype demonstrates a simplified front-end simulation of the integration
 ---
 
 ### Technical Stack
-- React 18: Component-based UI framework.
+- React 19: Component-based UI framework.
 - Tailwind CSS: Utility-first styling for fast and clean UI.
 - React Router: Multi-page navigation flow simulation.
 - React Context API: Manages state globally (selected flight, taxi, etc.).
