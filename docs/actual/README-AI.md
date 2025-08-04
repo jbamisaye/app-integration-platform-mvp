@@ -2,7 +2,7 @@
 I used **ChatGPT** strategically to accelerate tasks  
 
 - **Architecture Design**: Used AI to validate my initial C4 diagrams for completeness and to refine component/service boundaries.
-- **Prototype Development**: Used ChatGPT to scaffold React components, Tailwind utility usage, and generate sample data.
+- **Prototype Development**: Used Copilot to scaffold React components, Tailwind utility usage, and generate sample data.
 - **Documentation**: AI helped refine the language of architectural overviews documentation and README contents.
 - **Judgment Applied**: All AI-generated outputs were reviewed, adapted, and rewritten where necessary to ensure alignment with project goals and clarity for technical and non-technical stakeholders.
 

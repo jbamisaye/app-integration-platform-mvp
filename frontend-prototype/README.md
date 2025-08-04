@@ -66,6 +66,7 @@ This prototype demonstrates a simplified front-end simulation of the integration
 ## How to Run Prototype
 
 1. Clone the repo  
+2. Run `cd frontend-prototype`
 2. Run `npm install`  
 3. Run `npm start`  
 4. Navigate through the app:  
