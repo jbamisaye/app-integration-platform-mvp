@@ -21,21 +21,21 @@ The overall system enables smooth airport journeys by exposing a central middlew
 
 ## Architecture Overview
 
-### Context Diagram : [`/c4-diagrams/context/`](./c4-diagrams/context/README.md)  
+### Context Diagram : [`/c4-diagrams/context/readme`](./c4-diagrams/context/README.md)  
 
-### Container Diagram : [`/c4-diagrams/container/`](./c4-diagrams/container/README.md) 
+### Container Diagram : [`/c4-diagrams/container/readme`](./c4-diagrams/container/README.md) 
 
-### Component Diagram - Booking Orchestrator : [`/c4-diagrams/component/`](./c4-diagrams/component/README.md)  
+### Component Diagram - Booking Orchestrator : [`/c4-diagrams/component/readme`](./c4-diagrams/component/README.md)  
 
-### Omissions & Trade-offs : [`/docs/actual/`](./docs/actual/README.md)  
+### Omissions & Trade-offs : [`/docs/actual/readme`](./docs/actual/README.md)  
 
-### Sample API Endpoints by Service : [`/docs/actual/api`](./docs/actual/README-API.md)  
+### Sample API Endpoints by Service : [`/docs/actual/readme-api`](./docs/actual/README-API.md)  
 
 ---
 
 ## Prototype Architecture & Overview
 
-### Overview : [`/docs/prototype/`](./frontend-prototype/README.md)  
+### Overview : [`/frontend-prototype/readme`](./frontend-prototype/README.md)  
 
 ### Prototype Source : [`/frontend-prototype/`](./frontend-prototype/)  
 
@@ -44,4 +44,4 @@ The overall system enables smooth airport journeys by exposing a central middlew
 ## Use of AI Tools 
 
 During this design, I used **ChatGPT** strategically to accelerate tasks without compromising understanding or design control. Click for more specific information on use of AI tool:  
-#### Use of AI : [`/docs/actual/AI/`](./docs/actual/README-AI.md)  
+#### Use of AI : [`/docs/actual/readme-ai`](./docs/actual/README-AI.md)  
