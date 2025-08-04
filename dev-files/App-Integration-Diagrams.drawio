@@ -1,0 +1,346 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.15 Chrome/134.0.6998.205 Electron/35.2.1 Safari/537.36" version="26.2.15" pages="3">
+  <diagram name="Context" id="yVrRE9U0xkHryNs1dpXu">
+    <mxGraphModel dx="1473" dy="922" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MIZiyKc636VFzg8JrYek-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MIZiyKc636VFzg8JrYek-2" target="MIZiyKc636VFzg8JrYek-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Priority Pass User" c4Type="Person" c4Description="via Priority Pass App" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="MIZiyKc636VFzg8JrYek-2">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=1;" vertex="1" parent="1">
+            <mxGeometry x="60" y="40" width="160" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="App Integration Platform" c4Type="Software System" c4Description="Middleware that orchestrates lounge + taxi integration" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="MIZiyKc636VFzg8JrYek-4">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="280" y="360" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Priority Pass Platform" c4Type="Software System" c4Description="(Lounge &amp; Membership API)" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="MIZiyKc636VFzg8JrYek-5">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalAlign=middle;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+            <mxGeometry x="40" y="200" width="200" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Global Taxi Platform" c4Type="Software System" c4Description="(Ride Booking, ETA APIs)" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="MIZiyKc636VFzg8JrYek-7">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalAlign=middle;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+            <mxGeometry x="560" y="200" width="200" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Taxi App User" c4Type="Person" c4Description="via Global Taxi App" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="MIZiyKc636VFzg8JrYek-8">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=1;" vertex="1" parent="1">
+            <mxGeometry x="580" y="40" width="160" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="MIZiyKc636VFzg8JrYek-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.324;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MIZiyKc636VFzg8JrYek-5" target="MIZiyKc636VFzg8JrYek-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MIZiyKc636VFzg8JrYek-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MIZiyKc636VFzg8JrYek-8" target="MIZiyKc636VFzg8JrYek-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Flight Info API" c4Type="Software System" c4Description="Flight Info API System" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="MIZiyKc636VFzg8JrYek-13">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="40" y="520" width="200" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Notification Service" c4Type="Software System" c4Description="Notification Service System" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="MIZiyKc636VFzg8JrYek-14">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="560" y="520" width="200" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="MIZiyKc636VFzg8JrYek-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.993;exitY=0.694;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MIZiyKc636VFzg8JrYek-4" target="MIZiyKc636VFzg8JrYek-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MIZiyKc636VFzg8JrYek-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.01;exitY=0.66;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MIZiyKc636VFzg8JrYek-4" target="MIZiyKc636VFzg8JrYek-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MIZiyKc636VFzg8JrYek-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.004;entryY=0.344;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="MIZiyKc636VFzg8JrYek-7" target="MIZiyKc636VFzg8JrYek-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Container-Diagram" id="QTWIF_uvTh-P5eCi1F5J">
+    <mxGraphModel dx="1873" dy="922" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="iaBq63HRWIzzUxnHoeDe-0" />
+        <mxCell id="iaBq63HRWIzzUxnHoeDe-1" parent="iaBq63HRWIzzUxnHoeDe-0" />
+        <mxCell id="J3R2VgDhajD4dBMp-8DX-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;App Integration Platform&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;strokeWidth=0.5;align=left;" vertex="1" parent="iaBq63HRWIzzUxnHoeDe-1">
+          <mxGeometry x="-8" y="199" width="880" height="610" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Priority Pass Platform" c4Type="Software System" c4Description="" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="iaBq63HRWIzzUxnHoeDe-5">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalAlign=middle;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="iaBq63HRWIzzUxnHoeDe-1">
+            <mxGeometry x="40" y="40" width="160" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Global Taxi Platform" c4Type="Software System" c4Description="" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="iaBq63HRWIzzUxnHoeDe-6">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalAlign=middle;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="iaBq63HRWIzzUxnHoeDe-1">
+            <mxGeometry x="638" y="40" width="160" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Flight Info API" c4Type="Software System" c4Description="" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="iaBq63HRWIzzUxnHoeDe-10">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="iaBq63HRWIzzUxnHoeDe-1">
+            <mxGeometry x="60" y="841" width="160" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Notification Service" c4Type="Software System" c4Description="" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="iaBq63HRWIzzUxnHoeDe-11">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="iaBq63HRWIzzUxnHoeDe-1">
+            <mxGeometry x="640" y="841" width="160" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="API Gateway" c4Type="Container" c4Technology="e.g. AWS API Gateway" c4Description="Entry point for all external integrations; handles auth/routing" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="J3R2VgDhajD4dBMp-8DX-3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="iaBq63HRWIzzUxnHoeDe-1">
+            <mxGeometry x="320" y="360" width="200" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Authentication Service&#x9;" c4Type="Container" c4Technology="e.g. AWS Incognito" c4Description="Manages user/system authentication" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="J3R2VgDhajD4dBMp-8DX-4">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="iaBq63HRWIzzUxnHoeDe-1">
+            <mxGeometry x="40" y="240" width="200" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Taxi Inventory Service" c4Type="Container" c4Technology="e.g. AWS Lambda" c4Description="Syncs available ride details" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="J3R2VgDhajD4dBMp-8DX-5">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="iaBq63HRWIzzUxnHoeDe-1">
+            <mxGeometry x="600" y="240" width="200" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Lounge Inventory Service" c4Type="Container" c4Technology="e.g. AWS Lambda" c4Description="Syncs lounges from Priority Pass" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="J3R2VgDhajD4dBMp-8DX-6">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="iaBq63HRWIzzUxnHoeDe-1">
+            <mxGeometry x="40" y="360" width="200" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Internal Data Store" c4Type="Container" c4Technology="e.g. RDS for PostgreSQL, Redis Cache" c4Description="Stores Data like data like synced inventories, booking logs, etc." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="J3R2VgDhajD4dBMp-8DX-7">
+          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=1;" vertex="1" parent="iaBq63HRWIzzUxnHoeDe-1">
+            <mxGeometry x="320" y="530" width="200" height="140" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="J3R2VgDhajD4dBMp-8DX-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.601;exitY=0.915;exitDx=0;exitDy=0;exitPerimeter=0;jumpStyle=arc;" edge="1" parent="iaBq63HRWIzzUxnHoeDe-1" source="J3R2VgDhajD4dBMp-8DX-8" target="iaBq63HRWIzzUxnHoeDe-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Notification Dispatcher" c4Type="Container" c4Technology="e.g. AWS SNS" c4Description="Sends notifications" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="J3R2VgDhajD4dBMp-8DX-8">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="iaBq63HRWIzzUxnHoeDe-1">
+            <mxGeometry x="600" y="480" width="200" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="J3R2VgDhajD4dBMp-8DX-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.022;entryY=0.314;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="iaBq63HRWIzzUxnHoeDe-1" source="J3R2VgDhajD4dBMp-8DX-9" target="J3R2VgDhajD4dBMp-8DX-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="574" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Flight ETA Recommender" c4Type="Container" c4Technology="e.g. AWS Lambda" c4Description="Pulls flight status and suggests optimal departure time" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="J3R2VgDhajD4dBMp-8DX-9">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="iaBq63HRWIzzUxnHoeDe-1">
+            <mxGeometry x="40" y="480" width="200" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="J3R2VgDhajD4dBMp-8DX-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iaBq63HRWIzzUxnHoeDe-1" source="J3R2VgDhajD4dBMp-8DX-11" target="J3R2VgDhajD4dBMp-8DX-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Booking Orchestrator" c4Type="Container" c4Technology="e.g. AWS Lambda" c4Description="Coordinates ride booking across systems" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="J3R2VgDhajD4dBMp-8DX-11">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="iaBq63HRWIzzUxnHoeDe-1">
+            <mxGeometry x="600" y="360" width="200" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="J3R2VgDhajD4dBMp-8DX-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="iaBq63HRWIzzUxnHoeDe-1" source="iaBq63HRWIzzUxnHoeDe-6" target="J3R2VgDhajD4dBMp-8DX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J3R2VgDhajD4dBMp-8DX-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="iaBq63HRWIzzUxnHoeDe-1" source="iaBq63HRWIzzUxnHoeDe-5" target="J3R2VgDhajD4dBMp-8DX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J3R2VgDhajD4dBMp-8DX-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="iaBq63HRWIzzUxnHoeDe-1" source="J3R2VgDhajD4dBMp-8DX-3" target="J3R2VgDhajD4dBMp-8DX-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="380" />
+              <mxPoint x="560" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J3R2VgDhajD4dBMp-8DX-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="iaBq63HRWIzzUxnHoeDe-1" source="J3R2VgDhajD4dBMp-8DX-3" target="J3R2VgDhajD4dBMp-8DX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J3R2VgDhajD4dBMp-8DX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="iaBq63HRWIzzUxnHoeDe-1" source="J3R2VgDhajD4dBMp-8DX-3" target="J3R2VgDhajD4dBMp-8DX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J3R2VgDhajD4dBMp-8DX-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="iaBq63HRWIzzUxnHoeDe-1" source="J3R2VgDhajD4dBMp-8DX-3" target="J3R2VgDhajD4dBMp-8DX-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J3R2VgDhajD4dBMp-8DX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;jumpStyle=arc;" edge="1" parent="iaBq63HRWIzzUxnHoeDe-1" source="J3R2VgDhajD4dBMp-8DX-11" target="iaBq63HRWIzzUxnHoeDe-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="400" />
+              <mxPoint x="820" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J3R2VgDhajD4dBMp-8DX-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.995;entryY=0.686;entryDx=0;entryDy=0;entryPerimeter=0;jumpStyle=arc;dashed=1;jumpSize=13;" edge="1" parent="iaBq63HRWIzzUxnHoeDe-1" source="J3R2VgDhajD4dBMp-8DX-11" target="J3R2VgDhajD4dBMp-8DX-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="420" />
+              <mxPoint x="820" y="626" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J3R2VgDhajD4dBMp-8DX-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;exitX=0.383;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="iaBq63HRWIzzUxnHoeDe-1" source="J3R2VgDhajD4dBMp-8DX-8" target="J3R2VgDhajD4dBMp-8DX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J3R2VgDhajD4dBMp-8DX-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.827;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;jumpStyle=arc;jumpSize=12;" edge="1" parent="iaBq63HRWIzzUxnHoeDe-1" source="J3R2VgDhajD4dBMp-8DX-5" target="J3R2VgDhajD4dBMp-8DX-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="280" />
+              <mxPoint x="840" y="646" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J3R2VgDhajD4dBMp-8DX-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="iaBq63HRWIzzUxnHoeDe-1" source="J3R2VgDhajD4dBMp-8DX-3" target="J3R2VgDhajD4dBMp-8DX-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="420" />
+              <mxPoint x="280" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J3R2VgDhajD4dBMp-8DX-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="iaBq63HRWIzzUxnHoeDe-1" source="J3R2VgDhajD4dBMp-8DX-9" target="iaBq63HRWIzzUxnHoeDe-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J3R2VgDhajD4dBMp-8DX-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;jumpStyle=arc;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="iaBq63HRWIzzUxnHoeDe-1" source="J3R2VgDhajD4dBMp-8DX-6" target="J3R2VgDhajD4dBMp-8DX-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="420" />
+              <mxPoint x="20" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J3R2VgDhajD4dBMp-8DX-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="iaBq63HRWIzzUxnHoeDe-1" source="J3R2VgDhajD4dBMp-8DX-6" target="iaBq63HRWIzzUxnHoeDe-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="400" />
+              <mxPoint x="20" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J3R2VgDhajD4dBMp-8DX-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.194;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;jumpStyle=arc;" edge="1" parent="iaBq63HRWIzzUxnHoeDe-1" source="J3R2VgDhajD4dBMp-8DX-6" target="J3R2VgDhajD4dBMp-8DX-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="460" />
+              <mxPoint x="639" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J3R2VgDhajD4dBMp-8DX-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="iaBq63HRWIzzUxnHoeDe-1" source="J3R2VgDhajD4dBMp-8DX-9" target="J3R2VgDhajD4dBMp-8DX-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J3R2VgDhajD4dBMp-8DX-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iaBq63HRWIzzUxnHoeDe-1" source="J3R2VgDhajD4dBMp-8DX-37" target="J3R2VgDhajD4dBMp-8DX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Admin &amp; Dashboard" c4Type="Container" c4Technology="e.g. React" c4Description="Administrative Functions/Dashboards" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="J3R2VgDhajD4dBMp-8DX-37">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="iaBq63HRWIzzUxnHoeDe-1">
+            <mxGeometry x="320" y="720" width="200" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="y9bXtzrCe2QxArvob7oN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.594;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="iaBq63HRWIzzUxnHoeDe-1" source="iaBq63HRWIzzUxnHoeDe-6" target="J3R2VgDhajD4dBMp-8DX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hxKUn1GcoSNZ8Mr464qj" name="Component-Diagram">
+    <mxGraphModel dx="1252" dy="784" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8n1j2MH3Z2ix3Bd-l0Cs-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Booking Orchestrator Service&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;strokeWidth=0.5;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry y="120" width="840" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="KwagXxQe6XlHq2EDbfLU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8n1j2MH3Z2ix3Bd-l0Cs-2" target="avT_0uygnHA06j82aNAr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Booking Controller" c4Type="Component" c4Technology="AWS Lambda (Node.js)" c4Description="Entry point for booking requests via API Gateway" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="8n1j2MH3Z2ix3Bd-l0Cs-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="320" y="160" width="200" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Booking Validator" c4Type="Component" c4Technology="AWS Lambda (Node.js)" c4Description="Applies booking rules and eligibility checks" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="avT_0uygnHA06j82aNAr-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="20" y="480" width="180" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="KwagXxQe6XlHq2EDbfLU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="avT_0uygnHA06j82aNAr-3" target="avT_0uygnHA06j82aNAr-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="460" />
+              <mxPoint x="310" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Workflow Engine" c4Type="Component" c4Technology="AWS Step Functions" c4Description="Coordinates the full booking flow" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="avT_0uygnHA06j82aNAr-3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="320" y="320" width="200" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="KwagXxQe6XlHq2EDbfLU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="avT_0uygnHA06j82aNAr-4" target="avT_0uygnHA06j82aNAr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Taxi API Client" c4Type="Component" c4Technology="AWS Lambda + HTTP Client" c4Description="Communicates with Global Taxi platform API" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="avT_0uygnHA06j82aNAr-4">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="220" y="480" width="180" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Booking Repository" c4Type="Component" c4Technology="AWS Lambda + PostgreSQL (RDS)" c4Description="Stores and retrieves booking records" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="avT_0uygnHA06j82aNAr-5">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="440" y="480" width="180" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="KwagXxQe6XlHq2EDbfLU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="avT_0uygnHA06j82aNAr-6" target="avT_0uygnHA06j82aNAr-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Event Publisher" c4Type="Component" c4Technology="AWS Lambda + SNS / SQS" c4Description="Emits booking events (e.g., confirmed, failed)" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="avT_0uygnHA06j82aNAr-6">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="640" y="480" width="180" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="avT_0uygnHA06j82aNAr-8" value="Global Taxi API" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="220" y="658" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KwagXxQe6XlHq2EDbfLU-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="avT_0uygnHA06j82aNAr-9" target="8n1j2MH3Z2ix3Bd-l0Cs-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="avT_0uygnHA06j82aNAr-9" value="API Gateway" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="340" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="avT_0uygnHA06j82aNAr-11" value="Internal Data Store" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="658" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="avT_0uygnHA06j82aNAr-12" value="Notification Dispatcher" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="640" y="658" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KwagXxQe6XlHq2EDbfLU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="avT_0uygnHA06j82aNAr-5" target="avT_0uygnHA06j82aNAr-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KwagXxQe6XlHq2EDbfLU-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="avT_0uygnHA06j82aNAr-3" target="avT_0uygnHA06j82aNAr-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="450" />
+              <mxPoint x="110" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KwagXxQe6XlHq2EDbfLU-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="avT_0uygnHA06j82aNAr-3" target="avT_0uygnHA06j82aNAr-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="460" />
+              <mxPoint x="530" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KwagXxQe6XlHq2EDbfLU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="avT_0uygnHA06j82aNAr-3" target="avT_0uygnHA06j82aNAr-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="450" />
+              <mxPoint x="730" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

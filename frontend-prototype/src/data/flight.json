@@ -1,0 +1,20 @@
+[
+  {
+    "id": "F001",
+    "airline": "British Airways",
+    "flightNumber": "BA215",
+    "departureTime": "2025-08-05T13:45:00Z",
+    "departureAirport": "LHR",
+    "arrivalAirport": "JFK",
+    "terminal": "5"
+  },
+  {
+    "id": "F002",
+    "airline": "Delta",
+    "flightNumber": "DL117",
+    "departureTime": "2025-08-05T14:30:00Z",
+    "departureAirport": "LHR",
+    "arrivalAirport": "ATL",
+    "terminal": "3"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "airport": "LHR",
+    "name": "Aspire Lounge",
+    "location": "Terminal 5, near Gate A18",
+    "perks": ["Free Wi-Fi", "Buffet", "Shower Rooms"]
+  },
+  {
+    "airport": "LHR",
+    "name": "Airspace Lounge",
+    "location": "Terminal 5, near Gate B26",
+    "perks": ["Alcoholic Drinks", "Massage Chairs", "Work Pods"]
+  }
+]

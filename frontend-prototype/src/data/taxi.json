@@ -1,0 +1,23 @@
+[
+  {
+    "id": "T001",
+    "provider": "GlobalTaxi",
+    "estimatedArrival": "5 mins",
+    "recommendedLeaveTime": "2025-08-05T11:30:00Z",
+    "price": "£45"
+  },
+  {
+    "id": "T002",
+    "provider": "QuickCab",
+    "estimatedArrival": "8 mins",
+    "recommendedLeaveTime": "2025-08-05T11:15:00Z",
+    "price": "£40"
+  },
+  {
+    "id": "T003",
+    "provider": "EcoRide",
+    "estimatedArrival": "12 mins",
+    "recommendedLeaveTime": "2025-08-05T11:00:00Z",
+    "price": "£38"
+  }
+]
