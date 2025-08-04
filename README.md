@@ -35,7 +35,7 @@ The overall system enables smooth airport journeys by exposing a central middlew
 
 ## Prototype Architecture & Overview
 
-### Overview : [`/frontend-prototype/readme`](./frontend-prototype/README.md)  
+### Overview : [`/frontend-prototype/readme`](./frontend-prototype/README.md)
 
 ### Prototype Source : [`/frontend-prototype/`](./frontend-prototype/)  
 
@@ -43,5 +43,5 @@ The overall system enables smooth airport journeys by exposing a central middlew
 
 ## Use of AI Tools 
 
-During this design, I used **ChatGPT** strategically to accelerate tasks without compromising understanding or design control. Click for more specific information on use of AI tool:  
-#### Use of AI : [`/docs/actual/readme-ai`](./docs/actual/README-AI.md)  
+During this design, I used **ChatGPT** strategically to accelerate tasks without compromising understanding or design control. Click for more specific information on use of AI tool:
+### Use of AI : [`/docs/actual/readme-ai`](./docs/actual/README-AI.md)  
