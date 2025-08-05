@@ -1,20 +1,37 @@
-import lounges from '../data/lounges.json';
+// import lounges from '../data/lounges.json';
+
+// export default function Lounges() {
+//   return (
+//     <div className="p-6 max-w-3xl mx-auto">
+//       <h2 className="text-2xl font-bold mb-4">Available Lounges</h2>
+//       <ul className="space-y-4">
+//         {lounges.map((lounge, index) => (
+//           <li key={index} className="p-4 border rounded bg-white shadow">
+//             <h3 className="text-lg font-semibold">{lounge.name}</h3>
+//             <p className="text-gray-600">{lounge.airport} - {lounge.location}</p>
+//             <ul className="mt-2 list-disc pl-5 text-sm text-gray-700">
+//               {lounge.perks.map((perk, idx) => <li key={idx}>{perk}</li>)}
+//             </ul>
+//           </li>
+//         ))}
+//       </ul>
+//     </div>
+//   );
+// }
+
+import { useEffect, useState } from 'react';
+import { getLoungesByAirport } from '../services/loungeService';
+import LoungeList from '../components/LoungeList';
 
 export default function Lounges() {
-  return (
-    <div className="p-6 max-w-3xl mx-auto">
-      <h2 className="text-2xl font-bold mb-4">Available Lounges</h2>
-      <ul className="space-y-4">
-        {lounges.map((lounge, index) => (
-          <li key={index} className="p-4 border rounded bg-white shadow">
-            <h3 className="text-lg font-semibold">{lounge.name}</h3>
-            <p className="text-gray-600">{lounge.airport} - {lounge.location}</p>
-            <ul className="mt-2 list-disc pl-5 text-sm text-gray-700">
-              {lounge.perks.map((perk, idx) => <li key={idx}>{perk}</li>)}
-            </ul>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
+  const [lounges, setLounges] = useState([]);
+
+  useEffect(() => {
+    // Simulate selected airport context (e.g., from flight info)
+    const airportCode = 'LHR';
+    const results = getLoungesByAirport(airportCode);
+    setLounges(results);
+  }, []);
+
+  return <LoungeList lounges={lounges} title="Available Lounges (Priority Pass App)" />;
 }

@@ -5,6 +5,8 @@ import FlightInfo from './pages/FlightInfo';
 import TaxiBooking from './pages/TaxiBooking';
 import Lounges from './pages/Lounges';
 import Summary from './pages/Summary';
+import TaxiLoungeView from './pages/TaxiLoungeView';
+ 
 
 import { useAppContext } from './AppContext';
 
@@ -33,6 +35,7 @@ function App() {
         <Route path="/taxi-booking" element={<TaxiBooking />} />
         <Route path="/lounges" element={<Lounges />} />
         <Route path="/summary" element={<Summary />} />
+        <Route path="/taxi-app/lounges" element={<TaxiLoungeView />} />
 
       </Routes>
     </div>

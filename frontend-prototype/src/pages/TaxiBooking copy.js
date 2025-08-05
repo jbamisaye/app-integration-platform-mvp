@@ -26,25 +26,13 @@ export default function TaxiBooking() {
     navigate('/summary');
   };
 
-  // const formatArrivalTime = (etaMinutes) => {
-  //   const arrival = new Date(Date.now() + etaMinutes * 60000);
-  //   return arrival.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-  // };
-
-  const formatArrivalFromLeaveTime = (leaveTime, durationMins) => {
-  const leave = new Date(leaveTime);
-  const arrival = new Date(leave.getTime() + durationMins * 60000);
-  return arrival.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-};
-
   return (
     <div className="p-6 max-w-3xl mx-auto">
       <h2 className="text-2xl font-bold mb-4">Available Taxis</h2>
 
       {selectedFlight ? (
         <p className="mb-4 text-sm text-gray-700">
-          ✈️ Flight: <strong>{selectedFlight.flightNumber}</strong> → {selectedFlight.arrivalAirport} (Terminal {selectedFlight.terminal})<br />
-          🕓 <strong>Departure Time:</strong> {new Date(selectedFlight.departureTime).toLocaleString()}  
+          Flight: <strong>{selectedFlight.flightNumber}</strong> → {selectedFlight.arrivalAirport} (Terminal {selectedFlight.terminal})  - Departs at {selectedFlight.departureTime}
         </p>
       ) : (
         <p className="mb-4 text-sm text-red-600 font-medium">
@@ -71,16 +59,8 @@ export default function TaxiBooking() {
           <li key={taxi.id} className="p-4 border rounded bg-white shadow flex justify-between items-center">
             <div>
               <h3 className="text-lg font-semibold text-blue-700">{taxi.provider}</h3>
-              
-              <p className="text-gray-600">
-                ETA: <strong>{formatArrivalFromLeaveTime(taxi.recommendedLeaveTime, taxi.duration)}</strong>
-              </p>
-              <p className="text-gray-600">
-                Leave by: {new Date(taxi.recommendedLeaveTime).toLocaleTimeString()}
-              </p>
-              <p className="text-gray-600">
-                Ride duration:   {taxi.duration} 
-              </p>
+              <p className="text-gray-600">ETA: {taxi.estimatedArrival}</p>
+              <p className="text-gray-600">Leave by: {new Date(taxi.recommendedLeaveTime).toLocaleTimeString()}</p>
             </div>
             <div className="flex flex-col items-end">
               <span className="text-lg font-bold">{taxi.price}</span>

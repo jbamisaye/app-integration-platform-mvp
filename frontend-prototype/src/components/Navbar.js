@@ -11,6 +11,9 @@ export default function Navbar() {
           <Link to="/taxi-booking" className="hover:underline">Book Taxi</Link>
           <Link to="/lounges" className="hover:underline">Lounges</Link>
           <Link to="/summary" className="hover:underline">Summary</Link>
+     
+          <Link to="/taxi-app/lounges" className="hover:underline">Taxi App Lounges</Link>
+        
         </div>
       </div>
     </nav>

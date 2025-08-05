@@ -5,6 +5,17 @@ This prototype demonstrates a simplified front-end simulation of the integration
 
 ---
 
+### Assumptions & Stakeholder Collaboration
+
+- Due to limited engagement with the stakeholders, some assumptions were made to proceed with the prototype.
+- In a real project, I would collaborate closely with stakeholders to:
+  - Clarify some requirements
+  - Validate assumptions and user flows
+  - Align expectations and priorities
+- This collaboration would help ensure shared understanding and effective delivery
+
+---
+
 ### Features
 
 - Flight selection from multiple flights with detailed info.
@@ -85,6 +96,17 @@ This prototype demonstrates a simplified front-end simulation of the integration
 - Books taxi based on recommended leave time.  
 - Receives booking confirmation and trip summary.  
 - Optionally accesses lounge information.  
+
+### Component & API Reuse
+
+To simulate inventory sharing between the Taxi App and Priority Pass App, the prototype uses:
+
+- A shared JSON data source (`lounges.json`) to mock the Lounge Inventory API.
+- A reusable `LoungeList` component to display lounge content in multiple views:
+  - `/lounges`: Priority Pass app screen
+  - `/taxi-app/lounge-offers`: Taxi app surfacing Priority Pass lounge inventory
+
+---
 
 #### Prototype Source : [`/frontend-prototype/`](./)  
 #### Repository Home : [`/Repository-Home/`](../README.md)  
